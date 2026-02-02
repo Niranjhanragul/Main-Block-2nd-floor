@@ -33,3 +33,20 @@ nav a {
 nav a:hover {
   color: yellow;
 }
+.hero {
+  background-color: white;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.hero h1 {
+  color: darkblue;
+  font-size: 50px;
+}
+
+.hero p {
+  color: gray;
+  font-size: 22px;
+}
