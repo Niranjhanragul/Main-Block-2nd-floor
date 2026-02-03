@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Contact</title>
+  <script src="script.js"></script>
+  <title>My Floor796 Clone</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Contact Me</h1>
-  <p>You can reach me at: <strong>myemail@example.com</strong></p>
-  <a href="index.html">Back to Home</a>
-  <h2>Contact Me</h2>
-<form onsubmit="handleForm(event)">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name"><br><br>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
 
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email"><br><br>
+  <section class="hero">
+    <h1>Welcome to My Floor796 Clone</h1>
+    <p>Exploring web development step by step!</p>
+  </section>
 
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message"></textarea><br><br>
+  <img src="myphoto.jpg" alt="My Photo" width="300">
+  <button onclick="alert('You clicked me!')">Click Me</button>
+  <button onclick="changeBackground()">Change Background</button>
+  <button onclick="animateHero()">Animate Hero Text</button>
 
-  <button type="submit">Send</button>
-</form>
+  <h2>Hello World!</h2>
+  <p>This is my first website step.</p>
+
+  <section class="gallery">
+    <h2>My Gallery</h2>
+    <div class="images">
+      <img src="pic1.jpg" alt="Gallery Picture 1" width="200">
+      <img src="pic2.jpg" alt="Gallery Picture 2" width="200">
+      <img src="pic3.jpg" alt="Gallery Picture 3" width="200">
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Niranjhan. All rights reserved.</p>
+  </footer>
 </body>
 </html>
