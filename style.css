@@ -59,3 +59,18 @@ footer {
   bottom: 0;
   width: 100%;
 }
+.gallery {
+  margin: 40px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
