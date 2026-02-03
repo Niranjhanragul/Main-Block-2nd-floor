@@ -108,3 +108,33 @@ button {
 button:hover {
   background-color: navy;
 }
+/* Step 18: Responsive Design */
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .images {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  img {
+    width: 90%;   /* shrink large images on mobile */
+  }
+}
